@@ -185,10 +185,11 @@ td:first-child {
 }
 
 /* Contact */
-.phone, .email {
+.contactinfo .phone, .contactinfo .email {
     padding: 10px 0px;
+    margin: 0;
 }
-span:first-child {
+#contact span:first-child {
     font-weight: bold;
 }
 form fieldset {
@@ -238,7 +239,7 @@ textarea {
 }
 
 /* Cliffs */
-main div {
+main .cliffs {
     margin: 0 250px;
     display: inline-block;
 }
@@ -258,4 +259,16 @@ main div {
 .cliff-image {
     width: 400px;
     margin: 0 20px 20px 20px;
+}
+
+/* Home */
+#timeofday {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a3a3a;
+    background: RGBA(251, 215, 139, 1);
+    background: linear-gradient(0deg, rgba(251, 215, 139, 1) 0%, rgba(118, 213, 245, 1) 100%);    padding: 20px 0;
+}
+#clock {
+    color: #125688;
 }
